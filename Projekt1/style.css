@@ -1,0 +1,19 @@
+.removeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  height: 10px;
+  background: red;
+}
+
+.todoList li {
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.todoList li.done span {
+  text-decoration: line-through;
+}
